@@ -3,6 +3,7 @@ DSA problems
 <br>
 Q1 Minimum Operations to Reduce X to Zero
 <br>
+<br>
 Explanation:You are given an integer array a of length n and an integer x.
 
 In one operation, you can remove the leftmost or rightmost element from the array. The value of the removed element is then subtracted from x.

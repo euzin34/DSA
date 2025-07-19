@@ -17,9 +17,9 @@ def min_operation(arrlen: int, target_num: int, arr: list[int]):
     for right_ptr in range(arrlen):
         current_sum += arr[right_ptr]
 
-    while current_sum > sub_array and left_ptr <= right_ptr:
-        current_sum -= arr[left_ptr]
-        left_ptr +=1
+        while current_sum > sub_array and left_ptr <= right_ptr:
+            current_sum -= arr[left_ptr]
+            left_ptr +=1
 
         if current_sum == sub_array:
             return_val = max(return_val, right_ptr - left_ptr + 1)
